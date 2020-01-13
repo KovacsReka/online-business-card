@@ -1,0 +1,104 @@
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: hsla(0, 0%, 90%, .6);
+  border-radius: 5px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 70px;
+  border: 1px solid silver;
+  padding: 25px 10px 10px;
+}
+
+.head {
+  background-color: rgba(225, 225, 225, 0);
+}
+.content {
+  background-color: rgba(0, 21, 44, 0);
+  padding: 5% 10%;
+  border-top: 1px solid hsla(0, 0%, 30%, .9);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  
+}
+.name-headline {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 100px;
+  height: 100px;
+  padding: 2px;
+  border-radius: 50%;
+}
+.profile-image {
+  margin-top: -80px;
+}
+
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.3em
+}
+h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1em
+}
+p{ 
+  font-family: 'Cardo', serif;
+  font-size: 1.1em
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url('shadow_forest.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+img {
+  padding: 1px;
+  background-color: #c0c0c0;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s linear;
+  filter: grayscale(90%)
+}
+img {
+  filter: grayscale(20%);
+}
+
+li {
+  display: inline;
+  
+}
+a {
+ color: rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+  color: white;
+}
+.head, .about {
+  margin-bottom: 5%;
+}
